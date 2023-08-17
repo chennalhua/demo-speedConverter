@@ -1,0 +1,36 @@
+.text-blue{
+    color: $primary;
+}
+
+.speed-box{
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+
+    //主題切換
+    .form-switch .form-check-input {
+        width: 3.5em;
+        height: 24px;
+    }
+    .form-check-input:checked {
+        background-color: $primary;
+        border-color: $primary;
+    }
+    .sunIcon{
+        top: 5px;
+        right: 70px;
+        transform: translate(-50%);
+        color: #212529;
+    }
+    .moonIcon{
+        top: 5px;
+        left: -28px;
+        transform: translate(-50%);
+        color: aliceblue;
+    }
+
+    //header
+    header{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}

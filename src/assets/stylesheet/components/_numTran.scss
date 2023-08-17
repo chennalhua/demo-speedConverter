@@ -1,0 +1,14 @@
+.bi-arrow-right-short {
+    font-size: 24px;
+}
+
+.alert-text {
+    font-size: 14px;
+}
+
+@media (max-width: 990px) {
+    .bi-arrow-left-right::before {
+        content: "\f12b";
+        transform: rotate(90deg);
+    }
+}
